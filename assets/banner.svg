@@ -1,0 +1,88 @@
+<svg
+  width="854"
+  height="210"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  style="z-index:1;position:relative"
+  viewBox="0 0 854 210"
+>
+  <style>
+    .text { 
+      font-size: 38px; 
+      font-weight: 700; 
+      font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji; 
+    } 
+    .desc { 
+      font-size: 17px; 
+      font-weight: 500; 
+      font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji; 
+    } 
+    .text, .desc { 
+      animation: fadeIn 1.2s ease-in-out forwards; 
+    } 
+    @keyframes fadeIn { 
+      from { opacity: 0; } 
+      to { opacity: 1; } 
+    } 
+  </style>
+  <defs>
+    <!-- Gradiente multicolor estilo capsule-render (customColorList 2,3,5,30) -->
+    <linearGradient id="linear" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#43cea2"/>
+      <stop offset="100%" stop-color="#185a9d"/>
+    </linearGradient>
+    <clipPath id="avatar-clip">
+      <circle cx="730" cy="85" r="58"></circle>
+    </clipPath>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="5" flood-color="#000000" flood-opacity="0.45"></feDropShadow>
+    </filter>
+  </defs>
+  
+  <!-- Waving path (Fondo gradiente animado) -->
+  <g transform="translate(427, 105) scale(1, 1) translate(-427, -105)">
+    <path d="" fill="url(#linear)" opacity="0.4">
+      <animate
+          attributeName="d"
+          dur="20s"
+          repeatCount="indefinite"
+          keyTimes="0;0.333;0.667;1"
+          calcMode="spline"
+          keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1"
+          begin="0s"
+          values="M0 0L 0 130Q 213.5 170 427 140T 854 165L 854 0 Z;M0 0L 0 155Q 213.5 170 427 150T 854 140L 854 0 Z;M0 0L 0 175Q 213.5 145 427 175T 854 140L 854 0 Z;M0 0L 0 130Q 213.5 170 427 140T 854 165L 854 0 Z">
+      </animate>
+    </path>
+    <path d="" fill="url(#linear)" opacity="0.4">
+      <animate
+        attributeName="d"
+        dur="20s"
+        repeatCount="indefinite"
+        keyTimes="0;0.333;0.667;1"
+        calcMode="spline"
+        keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1"
+        begin="-10s"
+        values="M0 0L 0 145Q 213.5 190 427 160T 854 170L 854 0 Z;M0 0L 0 160Q 213.5 130 427 130T 854 150L 854 0 Z;M0 0L 0 155Q 213.5 135 427 160T 854 175L 854 0 Z;M0 0L 0 145Q 213.5 190 427 160T 854 170L 854 0 Z">
+      </animate>
+    </path>
+  </g>
+
+  <!-- macOS-style control window dots (Rojo, Amarillo, Verde) arriba a la izquierda -->
+  <g transform="translate(12, -2)">
+    <circle cx="20" cy="24" r="6" fill="#ff5f56"></circle>
+    <circle cx="38" cy="24" r="6" fill="#ffbd2e"></circle>
+    <circle cx="56" cy="24" r="6" fill="#27c93f"></circle>
+  </g>
+  
+  <!-- Text content shifted up slightly (y=38% and y=56%) for optimal alignment -->
+  <text text-anchor="middle" dominant-baseline="middle" x="42%" y="38%" class="text" style="fill:#ffffff;" stroke="none">Yoandy Ramírez Delgado</text>
+  <text text-anchor="middle" dominant-baseline="middle" x="42%" y="56%" class="desc" style="fill:#ffffff;">Junior Pentester · Red Team · eJPTv2 Certified</text>
+
+  <!-- Avatar overlay at the right raised further to cy=85 for visual balance -->
+  <g filter="url(#shadow)">
+    <!-- Outer circle border -->
+    <circle cx="730" cy="85" r="60" fill="#0d1117" stroke="#ffffff" stroke-width="2.5" stroke-opacity="0.85"></circle>
+    <!-- Avatar Image -->
+    <image href="https://github.com/heindall92.png" x="672" y="27" width="116" height="116" clip-path="url(#avatar-clip)"></image>
+  </g>
+</svg>
