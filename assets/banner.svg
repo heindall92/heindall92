@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 250" width="1200" height="250" fill="none" font-family="&#39;Segoe UI&#39;,Helvetica,Arial,sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#131a2b"></stop>
+      <stop offset="0.55" stop-color="#0d1117"></stop>
+      <stop offset="1" stop-color="#101d2e"></stop>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.82" cy="0.05" r="0.6">
+      <stop offset="0" stop-color="#38bdf8" stop-opacity="0.28"></stop>
+      <stop offset="1" stop-color="#38bdf8" stop-opacity="0"></stop>
+    </radialGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#58a6ff"></stop>
+      <stop offset="1" stop-color="#58a6ff" stop-opacity="0"></stop>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="1200" height="250" rx="0" fill="url(#bg)"></rect>
+  <rect x="0" y="0" width="1200" height="250" fill="url(#glow)"></rect>
+  <g>
+    <circle cx="34" cy="32" r="6.5" fill="#ff5f56"></circle>
+    <circle cx="58" cy="32" r="6.5" fill="#ffbd2e"></circle>
+    <circle cx="82" cy="32" r="6.5" fill="#27c93f"></circle>
+  </g>
+  <rect x="64" y="150" width="150" height="3" rx="1.5" fill="url(#rule)"></rect>
+  <text x="64" y="96" font-size="46" font-weight="700" fill="#f2f6fb" letter-spacing="-0.5">Yoandy Ramírez Delgado</text>
+  <text x="66" y="132" font-size="20" font-weight="500" fill="#9db4d0">Junior Pentester · Red Team Operator · DFIR tooling</text>
+  <g font-size="15" font-weight="600">
+    <rect x="64" y="182" width="150" height="36" rx="18" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.16"></rect>
+    <text x="139" y="205" fill="#c9d1d9" text-anchor="middle">eJPTv2 · 86%</text>
+    <rect x="226" y="182" width="164" height="36" rx="18" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.16"></rect>
+    <text x="308" y="205" fill="#c9d1d9" text-anchor="middle">45+ máquinas</text>
+    <rect x="402" y="182" width="196" height="36" rx="18" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.16"></rect>
+    <text x="500" y="205" fill="#c9d1d9" text-anchor="middle">Lepe, ES · Remote</text>
+  </g>
+  <g transform="translate(1010,125)">
+    <circle r="72" fill="#0d1117" stroke="#58a6ff" stroke-opacity="0.35" stroke-width="2"></circle>
+    <text y="12" font-size="52" font-weight="800" fill="#1f2a3d" text-anchor="middle" font-family="monospace">&gt;_</text>
+  </g>
+</svg>
