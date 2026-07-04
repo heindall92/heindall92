@@ -15,7 +15,7 @@
 
 <br/>
 
-<a href="https://yoandy-portfolio.lovable.app/"><img src="https://img.shields.io/badge/🌐_Portfolio-Live-00e87a?style=for-the-badge&labelColor=0b1a10"/></a>
+<a href="https://yoandyramirez.com/"><img src="https://img.shields.io/badge/🌐_Portfolio-Live-00e87a?style=for-the-badge&labelColor=0b1a10"/></a>
 &nbsp;
 <a href="https://www.linkedin.com/in/yoandyrd92/"><img src="https://img.shields.io/badge/LinkedIn-yoandyrd92-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 &nbsp;
@@ -107,7 +107,7 @@ I don't just break things (legally) — I build them too. I develop my own **pen
 </table>
 
 <div align="center">
-<a href="https://yoandy-portfolio.lovable.app/"><img src="https://img.shields.io/badge/🌐_Portfolio_Web-yoandy--portfolio-0d1117?style=for-the-badge&labelColor=0d1117&color=38bdf8"/></a>
+<a href="https://yoandyramirez.com/"><img src="https://img.shields.io/badge/🌐_Portfolio_Web-yoandy--portfolio-0d1117?style=for-the-badge&labelColor=0d1117&color=38bdf8"/></a>
 &nbsp;
 <a href="https://github.com/heindall92?tab=repositories"><img src="https://img.shields.io/badge/📂_Ver_todos_los_repos-→-0d1117?style=for-the-badge&labelColor=0d1117&color=00ff88"/></a>
 </div>
@@ -126,7 +126,7 @@ I don't just break things (legally) — I build them too. I develop my own **pen
 | 🌙 Unified | HTB | Easy | Log4Shell, MongoDB |
 | 🎯 eJPTv2 | Certificación | — | Pivoting, Drupalgeddon2, SMB brute-force |
 
-<sub>📂 Ver todos los writeups en el <a href="https://yoandy-portfolio.lovable.app/#writeups">portfolio</a></sub>
+<sub>📂 Ver todos los writeups en el <a href="https://yoandyramirez.com/#writeups">portfolio</a></sub>
 
 </div>
 
