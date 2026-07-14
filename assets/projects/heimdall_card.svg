@@ -65,7 +65,7 @@
   </g>
 
   <!-- Dark glass overlay to make text stand out -->
-  <rect x="0" y="0" width="854" height="210" fill="#0d1117" opacity="0.6"/>
+  <rect x="0" y="0" width="854" height="210" fill="#0d1117" opacity="0.2"/>
 
   <!-- macOS-style control window dots -->
   <g transform="translate(12, -2)">
