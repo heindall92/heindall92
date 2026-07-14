@@ -46,20 +46,19 @@ I don't just break things (legally) — I build them too. I develop my own **pen
 
 ## Proyectos
 
-<table border="0" cellspacing="10" cellpadding="0" width="100%">
-<tr>
-<td width="50%" valign="top"><a href="https://github.com/heindall92/Judas_Pentesting-Tool"><img src="./assets/projects/judas_card.svg" width="100%" alt="Judas — Red Team / AD"/></a></td>
-<td width="50%" valign="top"><a href="https://github.com/heindall92/Proyecto-Master-Ciberseguridad-Evolve-Yoandy"><img src="./assets/projects/valhalla_card.svg" width="100%" alt="Valhalla SOC — Blue Team"/></a></td>
-</tr>
-<tr>
-<td width="50%" valign="top"><a href="https://github.com/heindall92/heimdall-timewatch_DFIR"><img src="./assets/projects/heimdall_card.svg" width="100%" alt="Heimdall TimeWatch — DFIR"/></a></td>
-<td width="50%" valign="top"><a href="https://github.com/heindall92/Norvik_Gobernanza"><img src="./assets/projects/norvik_card.svg" width="100%" alt="Norvik — GRC"/></a></td>
-</tr>
-<tr>
-<td width="50%" valign="top"><a href="https://github.com/heindall92/Stormbreaker"><img src="./assets/projects/stormbreaker_card.svg" width="100%" alt="Stormbreaker — Advanced Forensic Console"/></a></td>
-<td width="50%" valign="top"></td>
-</tr>
-</table>
+<div align="center">
+
+<a href="https://github.com/heindall92/Judas_Pentesting-Tool"><img src="./assets/projects/judas_card.svg" width="100%" alt="Judas — Red Team / AD"/></a>
+<br/><br/>
+<a href="https://github.com/heindall92/Proyecto-Master-Ciberseguridad-Evolve-Yoandy"><img src="./assets/projects/valhalla_card.svg" width="100%" alt="Valhalla SOC — Blue Team"/></a>
+<br/><br/>
+<a href="https://github.com/heindall92/heimdall-timewatch_DFIR"><img src="./assets/projects/heimdall_card.svg" width="100%" alt="Heimdall TimeWatch — DFIR"/></a>
+<br/><br/>
+<a href="https://github.com/heindall92/Norvik_Gobernanza"><img src="./assets/projects/norvik_card.svg" width="100%" alt="Norvik — GRC"/></a>
+<br/><br/>
+<a href="https://github.com/heindall92/Stormbreaker"><img src="./assets/projects/stormbreaker_card.svg" width="100%" alt="Stormbreaker — Advanced Forensic Console"/></a>
+
+</div>
 
 <div align="center"><sub><a href="https://github.com/heindall92?tab=repositories">Ver todos los repositorios en GitHub →</a></sub></div>
 
