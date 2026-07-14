@@ -65,14 +65,14 @@ I don't just break things (legally) — I build them too. I develop my own **pen
 
 <br/>
 
-## Stack
+## 💻 Tech Stack
 
 | Área | Tecnologías y Herramientas |
 |:---|:---|
-| **Ofensiva** | `nmap` · `metasploit` · `burpsuite` · `bloodhound` · `hashcat` · `ffuf` · `sqlmap` · `gobuster` · `impacket` · `crackmapexec` |
-| **DFIR / Blue** | `wazuh SIEM` · `mitre att&ck` · `ntfs forensics` · `cowrie honeypot` · `wireshark` · `sysmon` · `event log parsing` |
-| **Dev / IA** | `python` · `bash` · `typescript` · `docker & compose` · `git` · `ollama (LLMs locales)` · `pyside6 (GUI)` |
-| **Metodología** | `owasp top 10` · `nist csf v2.0` · `iso 27001` · `cis controls v8` · `obsidian (threat documentation)` |
+| **⚔️ Hacking Ofensivo / AD** | ![Nmap](https://img.shields.io/badge/NMAP-011F3F?style=for-the-badge&logo=serverless&logoColor=white) ![Metasploit](https://img.shields.io/badge/METASPLOIT-0D96F2?style=for-the-badge&logo=metasploit&logoColor=white) ![Burp Suite](https://img.shields.io/badge/BURPSUITE-FF6600?style=for-the-badge&logo=portswigger&logoColor=white) ![Bloodhound](https://img.shields.io/badge/BLOODHOUND-E60000?style=for-the-badge&logo=neo4j&logoColor=white) ![Hashcat](https://img.shields.io/badge/HASHCAT-111111?style=for-the-badge&logo=password&logoColor=white) ![Ffuf](https://img.shields.io/badge/FFUF-00C853?style=for-the-badge&logo=go&logoColor=white) ![Sqlmap](https://img.shields.io/badge/SQLMAP-FFD54F?style=for-the-badge&logo=python&logoColor=black) ![Gobuster](https://img.shields.io/badge/GOBUSTER-008080?style=for-the-badge&logo=go&logoColor=white) ![Impacket](https://img.shields.io/badge/IMPACKET-333333?style=for-the-badge&logo=python&logoColor=white) ![CrackMapExec](https://img.shields.io/badge/CRACKMAPEXEC-E64A19?style=for-the-badge&logo=powershell&logoColor=white) |
+| **🕵️ DFIR & Blue Team** | ![Wazuh](https://img.shields.io/badge/WAZUH_SIEM-00A4EF?style=for-the-badge&logo=wazuh&logoColor=white) ![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-FF5722?style=for-the-badge&logo=mitre&logoColor=white) ![NTFS Forensics](https://img.shields.io/badge/NTFS_FORENSICS-795548?style=for-the-badge&logo=windows&logoColor=white) ![Cowrie](https://img.shields.io/badge/COWRIE_HONEYPOT-FFC107?style=for-the-badge&logo=python&logoColor=black) ![Wireshark](https://img.shields.io/badge/WIRESHARK-1679A7?style=for-the-badge&logo=wireshark&logoColor=white) ![Sysmon](https://img.shields.io/badge/SYSMON-0078D7?style=for-the-badge&logo=windows&logoColor=white) ![Event Logs](https://img.shields.io/badge/EVENT_LOGS-607D8B?style=for-the-badge&logo=logstash&logoColor=white) |
+| **⚙️ Desarrollo & IA Local** | ![Python](https://img.shields.io/badge/PYTHON-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Bash](https://img.shields.io/badge/BASH-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white) ![TypeScript](https://img.shields.io/badge/TYPESCRIPT-3178C6?style=for-the-badge&logo=typescript&logoColor=white) ![Docker](https://img.shields.io/badge/DOCKER-2496ED?style=for-the-badge&logo=docker&logoColor=white) ![Git](https://img.shields.io/badge/GIT-F05032?style=for-the-badge&logo=git&logoColor=white) ![Ollama](https://img.shields.io/badge/OLLAMA_(IA)-111111?style=for-the-badge&logo=ollama&logoColor=white) ![PySide6](https://img.shields.io/badge/PYSIDE6_(QT)-41CD52?style=for-the-badge&logo=qt&logoColor=white) |
+| **🧠 Metodologías y GRC** | ![OWASP](https://img.shields.io/badge/OWASP_TOP_10-333333?style=for-the-badge&logo=owasp&logoColor=white) ![NIST CSF](https://img.shields.io/badge/NIST_CSF-0080FF?style=for-the-badge&logo=nist&logoColor=white) ![ISO 27001](https://img.shields.io/badge/ISO_27001-003399?style=for-the-badge&logo=standards&logoColor=white) ![CIS Controls](https://img.shields.io/badge/CIS_CONTROLS-0D47A1?style=for-the-badge&logo=shield&logoColor=white) ![Obsidian](https://img.shields.io/badge/OBSIDIAN-483699?style=for-the-badge&logo=obsidian&logoColor=white) |
 
 <br/>
 
@@ -88,26 +88,41 @@ I don't just break things (legally) — I build them too. I develop my own **pen
 
 <br/>
 
-## GitHub Stats
+## 🤝 ¡Conectemos! 🌟
 
-<div align="center">
+Siempre estoy abierto a nuevos desafíos, colaboraciones en desarrollo de herramientas **Red Team / DFIR**, integraciones de **Inteligencia Artificial local** orientada a ciberseguridad, o simplemente para charlar sobre tendencias tecnológicas y auditorías de seguridad.
 
-<img src="https://github-readme-stats.vercel.app/api?username=heindall92&show_icons=true&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&rank_icon=github" height="165"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=heindall92&layout=compact&hide_border=true&bg_color=58a6ff&text_color=c9d1d9&langs_count=8" height="165"/>
-
-<br/><br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=heindall92&bg_color=0d1117&color=c9d1d9&line=58a6ff&point=58a6ff&hide_border=true&area=true&area_color=58a6ff" width="95%"/>
-
-</div>
+<table border="0" cellspacing="10" cellpadding="0" width="100%">
+<tr>
+<td width="33%" align="center" valign="top">
+  <a href="https://www.linkedin.com/in/yoandyrd92/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Profile"/>
+  </a>
+  <br/><br/>
+  <sub><b>Perfil Profesional</b><br/>Networking y contacto corporativo</sub>
+</td>
+<td width="33%" align="center" valign="top">
+  <a href="mailto:yoandyramirezdelgado@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Contact"/>
+  </a>
+  <br/><br/>
+  <sub><b>Propuestas y Oportunidades</b><br/>Proyectos y colaboraciones</sub>
+</td>
+<td width="33%" align="center" valign="top">
+  <a href="https://github.com/heindall92">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Profile"/>
+  </a>
+  <br/><br/>
+  <sub><b>Mis Proyectos</b><br/>Código fuente y herramientas</sub>
+</td>
+</tr>
+</table>
 
 <br/>
 
----
-
 <div align="center">
 
-<i>"4 años rompiendo sistemas — primero por accidente, ahora por metodología."</i>
+📍 **Huelva, España** &nbsp;&middot;&nbsp; 🌐 **Disponible para trabajo híbrido / remoto** &nbsp;&middot;&nbsp; 💬 **Español (Nativo) & Inglés (Profesional)**
 
 <br/><br/>
 
