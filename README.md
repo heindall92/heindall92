@@ -27,7 +27,7 @@ Pentester Junior y Red Team Operator en transición desde sistemas IT, con **4+ 
 
 No solo rompo cosas (legalmente): también las construyo. Desarrollo mis propias herramientas de **pentesting, GRC y DFIR** —automatización de ataques a Active Directory, un SOC completo con IA local y un detector anti-forense NTFS mapeado a MITRE ATT&CK— y las documento con calidad profesional.
 
-📍 Lepe, Huelva — abierto a remoto. Próximos objetivos: **CPTS** y **OSCP** (2026).
+📍 Huelva, España — Híbrido (Huelva, Madrid y alrededores) / Remoto (España, Europa/EU) &nbsp;&middot;&nbsp; Próximos objetivos: **CPTS** y **OSCP** (En preparación activa).
 
 <details>
 <summary><b>🇬🇧 Read in English (Executive Summary)</b></summary>
@@ -38,7 +38,7 @@ Junior Pentester and Red Team Operator transitioning from IT systems, with **4+ 
 
 I don't just break things (legally) — I build them too. I develop my own **pentesting, GRC and DFIR tooling** — Active Directory attack-chain automation, a full AI-assisted SOC, and an NTFS anti-forensics detector mapped to MITRE ATT&CK — and document all of it to a professional standard.
 
-📍 Lepe, Spain — open to remote. Next up: **CPTS** and **OSCP** (2026).
+📍 Huelva, Spain — Hybrid (Huelva, Madrid & surroundings) / Remote (Spain, Europe/EU) &nbsp;&middot;&nbsp; Next up: **CPTS** & **OSCP** (Currently in active preparation).
 
 </details>
 
@@ -84,7 +84,7 @@ I don't just break things (legally) — I build them too. I develop my own **pen
 | 🟩 | **HTB Academy** — Jr. Cybersecurity Analyst Path | HackTheBox | ![](https://img.shields.io/badge/Full_Path-3fb950?style=flat-square&labelColor=0d1117) |
 | 🎓 | **Máster en Ciberseguridad & Inteligencia Artificial** | Evolve Academy | ![](https://img.shields.io/badge/In_Progress-d29922?style=flat-square&labelColor=0d1117) |
 | 🌐 | **Google · Cisco · IBM** — IT, Networks & SecOps | Google / Cisco / IBM | ![](https://img.shields.io/badge/Completed-3fb950?style=flat-square&labelColor=0d1117) |
-| ⚡ | **CPTS → OSCP** | HackTheBox / OffSec | ![](https://img.shields.io/badge/Roadmap_2026-58a6ff?style=flat-square&labelColor=0d1117) |
+| ⚡ | **CPTS → OSCP** | HackTheBox / OffSec | ![](https://img.shields.io/badge/En_preparaci%C3%B3n-58a6ff?style=flat-square&labelColor=0d1117) |
 
 <br/>
 
