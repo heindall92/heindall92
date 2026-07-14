@@ -48,15 +48,15 @@ I don't just break things (legally) — I build them too. I develop my own **pen
 
 <div align="center">
 
-<a href="https://github.com/heindall92/Judas_Pentesting-Tool"><img src="./assets/projects/judas_card.svg" width="100%" alt="Judas — Red Team / AD"/></a>
-<br/><br/>
 <a href="https://github.com/heindall92/Proyecto-Master-Ciberseguridad-Evolve-Yoandy"><img src="./assets/projects/valhalla_card.svg" width="100%" alt="Valhalla SOC — Blue Team"/></a>
+<br/><br/>
+<a href="https://github.com/heindall92/Stormbreaker"><img src="./assets/projects/stormbreaker_card.svg" width="100%" alt="Stormbreaker — Advanced Forensic Console"/></a>
 <br/><br/>
 <a href="https://github.com/heindall92/heimdall-timewatch_DFIR"><img src="./assets/projects/heimdall_card.svg" width="100%" alt="Heimdall TimeWatch — DFIR"/></a>
 <br/><br/>
 <a href="https://github.com/heindall92/Norvik_Gobernanza"><img src="./assets/projects/norvik_card.svg" width="100%" alt="Norvik — GRC"/></a>
 <br/><br/>
-<a href="https://github.com/heindall92/Stormbreaker"><img src="./assets/projects/stormbreaker_card.svg" width="100%" alt="Stormbreaker — Advanced Forensic Console"/></a>
+<a href="https://github.com/heindall92/Parafarmacia-Control-de-Stock-FP1"><img src="./assets/projects/parafarmacia_card.svg" width="100%" alt="Parafarmacia — Control de Stock"/></a>
 
 </div>
 
