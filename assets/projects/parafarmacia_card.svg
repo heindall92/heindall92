@@ -26,10 +26,10 @@
     } 
   </style>
   <defs>
-    <!-- Background Gradient (Lighter Aqua Green Theme) -->
+    <!-- Background Gradient (Forest Green Theme) -->
     <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#78ffd6"/>
-      <stop offset="100%" stop-color="#4ade80"/>
+      <stop offset="0%" stop-color="#0b3c1d"/>
+      <stop offset="100%" stop-color="#327a44"/>
     </linearGradient>
     <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
       <feDropShadow dx="0" dy="6" stdDeviation="5" flood-color="#000000" flood-opacity="0.45"/>
@@ -101,8 +101,8 @@
       <!-- Row 1 (Top) -->
       <path d="M -40 -30 L -25 -30 L -15 -15 L -30 -15 Z" stroke="#ffffff" stroke-width="1" stroke-opacity="0.25" fill="none"/>
       <path d="M -20 -30 L -5 -30 L 5 -15 L -10 -15 Z" stroke="#ffffff" stroke-width="1" stroke-opacity="0.25" fill="none"/>
-      <!-- Highlighted Shelf (Lighter Aqua Green Glowing) -->
-      <path d="M 0 -30 L 15 -30 L 25 -15 L 10 -15 Z" fill="#78ffd6" fill-opacity="0.8" stroke="#78ffd6" stroke-width="1.5"/>
+      <!-- Highlighted Shelf (Bright Green Glowing) -->
+      <path d="M 0 -30 L 15 -30 L 25 -15 L 10 -15 Z" fill="#38ef7d" fill-opacity="0.8" stroke="#38ef7d" stroke-width="1.5"/>
       <path d="M 20 -30 L 35 -30 L 45 -15 L 30 -15 Z" stroke="#ffffff" stroke-width="1" stroke-opacity="0.25" fill="none"/>
 
       <!-- Pin Pointer above Highlighted Shelf -->
