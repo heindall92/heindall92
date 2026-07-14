@@ -26,9 +26,9 @@
     } 
   </style>
   <defs>
-    <!-- Background Gradient (Mint Green Theme) -->
+    <!-- Background Gradient (Lighter Aqua Green Theme) -->
     <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#2dd4bf"/>
+      <stop offset="0%" stop-color="#78ffd6"/>
       <stop offset="100%" stop-color="#4ade80"/>
     </linearGradient>
     <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
@@ -101,8 +101,8 @@
       <!-- Row 1 (Top) -->
       <path d="M -40 -30 L -25 -30 L -15 -15 L -30 -15 Z" stroke="#ffffff" stroke-width="1" stroke-opacity="0.25" fill="none"/>
       <path d="M -20 -30 L -5 -30 L 5 -15 L -10 -15 Z" stroke="#ffffff" stroke-width="1" stroke-opacity="0.25" fill="none"/>
-      <!-- Highlighted Shelf (Mint Green Glowing) -->
-      <path d="M 0 -30 L 15 -30 L 25 -15 L 10 -15 Z" fill="#2dd4bf" fill-opacity="0.8" stroke="#2dd4bf" stroke-width="1.5"/>
+      <!-- Highlighted Shelf (Lighter Aqua Green Glowing) -->
+      <path d="M 0 -30 L 15 -30 L 25 -15 L 10 -15 Z" fill="#78ffd6" fill-opacity="0.8" stroke="#78ffd6" stroke-width="1.5"/>
       <path d="M 20 -30 L 35 -30 L 45 -15 L 30 -15 Z" stroke="#ffffff" stroke-width="1" stroke-opacity="0.25" fill="none"/>
 
       <!-- Pin Pointer above Highlighted Shelf -->
