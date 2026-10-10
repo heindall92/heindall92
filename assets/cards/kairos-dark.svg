@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="210" viewBox="0 0 580 210" role="img" aria-label="KAIROS. BIA, BCP y DRP con la ruta crítica de recuperación de cada función."><title>KAIROS. BIA, BCP y DRP con la ruta crítica de recuperación de cada función.</title><style>
+
+text{font-family:'Geist', -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI Variable Text', 'Segoe UI', system-ui, sans-serif;fill:#eef1f3}
+.mono{font-family:'Geist Mono', ui-monospace, 'SF Mono', 'Cascadia Mono', Menlo, Consolas, monospace}
+/* Visible por defecto: si el visor no anima el SVG, el contenido se ve igual */
+.in{animation:in .9s cubic-bezier(.32,.72,0,1) both}
+@keyframes in{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+.d1{animation-delay:.08s}.d2{animation-delay:.16s}.d3{animation-delay:.24s}.d4{animation-delay:.32s}.d5{animation-delay:.4s}.d6{animation-delay:.48s}.d7{animation-delay:.56s}
+.flow{stroke-dasharray:4 7;animation:flow 1.6s linear infinite}
+@keyframes flow{to{stroke-dashoffset:-22}}
+
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<rect x=".5" y=".5" width="579" height="209" rx="22" fill="#111317" stroke="rgba(255,255,255,.13)"/>
+<g class="in"><rect x="26" y="26" width="48" height="48" rx="14" fill="rgba(107,155,255,.14)"/><g transform="translate(38 38) scale(1)" fill="none" stroke="#6b9bff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 22h14"/><path d="M5 2h14"/><path d="M17 22v-4.172a2 2 0 0 0-.586-1.414L12 12l-4.414 4.414A2 2 0 0 0 7 17.828V22"/><path d="M7 2v4.172a2 2 0 0 0 .586 1.414L12 12l4.414-4.414A2 2 0 0 0 17 6.172V2"/></g></g>
+<g class="in d1"><text x="90" y="49" font-size="20" font-weight="650" letter-spacing="-.015em">KAIROS</text>
+<text x="90" y="70" class="mono" font-size="12" fill="#8f97a0">v1.1 · web</text></g>
+<g class="in d2"><text x="28" y="110" font-size="15" fill="#a3aab2">BIA, BCP y DRP con la ruta crítica</text><text x="28" y="132" font-size="15" fill="#a3aab2">de recuperación de cada función.</text></g>
+<g class="in d3"><rect x="28" y="166" width="79.4" height="24" rx="12" fill="#171a1f"/><text x="67.7" y="182" font-size="11.5" font-weight="500" text-anchor="middle" fill="#a3aab2">ISO 22301</text><rect x="113.4" y="166" width="66.19999999999999" height="24" rx="12" fill="#171a1f"/><text x="146.5" y="182" font-size="11.5" font-weight="500" text-anchor="middle" fill="#a3aab2">op.cont</text><rect x="185.6" y="166" width="79.4" height="24" rx="12" fill="#171a1f"/><text x="225.3" y="182" font-size="11.5" font-weight="500" text-anchor="middle" fill="#a3aab2">RTO · RPO</text></g>
+<rect x="400" y="68" width="40" height="10" rx="5" fill="#6b9bff" opacity="1" class="in d2"/><rect x="430" y="88" width="46" height="10" rx="5" fill="#6b9bff" opacity="1" class="in d3"/><rect x="462" y="108" width="34" height="10" rx="5" fill="#6b9bff" opacity="1" class="in d4"/><rect x="470" y="128" width="58" height="10" rx="5" fill="#ff5d5d" opacity="0.85" class="in d5"/><line x1="516" y1="60" x2="516" y2="150" stroke="#8f97a0" stroke-dasharray="3 3"/><text x="516" y="166" class="mono" font-size="10.5" text-anchor="middle" fill="#8f97a0">RTO</text></svg>

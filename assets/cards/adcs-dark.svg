@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="210" viewBox="0 0 580 210" role="img" aria-label="ADCS ESC Lab. Reconoce las configuraciones débiles de AD CS por su firma y cómo mitigarlas."><title>ADCS ESC Lab. Reconoce las configuraciones débiles de AD CS por su firma y cómo mitigarlas.</title><style>
+
+text{font-family:'Geist', -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI Variable Text', 'Segoe UI', system-ui, sans-serif;fill:#eef1f3}
+.mono{font-family:'Geist Mono', ui-monospace, 'SF Mono', 'Cascadia Mono', Menlo, Consolas, monospace}
+/* Visible por defecto: si el visor no anima el SVG, el contenido se ve igual */
+.in{animation:in .9s cubic-bezier(.32,.72,0,1) both}
+@keyframes in{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+.d1{animation-delay:.08s}.d2{animation-delay:.16s}.d3{animation-delay:.24s}.d4{animation-delay:.32s}.d5{animation-delay:.4s}.d6{animation-delay:.48s}.d7{animation-delay:.56s}
+.flow{stroke-dasharray:4 7;animation:flow 1.6s linear infinite}
+@keyframes flow{to{stroke-dashoffset:-22}}
+
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<rect x=".5" y=".5" width="579" height="209" rx="22" fill="#111317" stroke="rgba(255,255,255,.13)"/>
+<g class="in"><rect x="26" y="26" width="48" height="48" rx="14" fill="rgba(107,155,255,.14)"/><g transform="translate(38 38) scale(1)" fill="none" stroke="#6b9bff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 22h5a2 2 0 0 0 2-2V8a2.4 2.4 0 0 0-.706-1.706l-3.588-3.588A2.4 2.4 0 0 0 14 2H6a2 2 0 0 0-2 2v3.3"/><path d="M14 2v5a1 1 0 0 0 1 1h5"/><path d="m7.69 16.479 1.29 4.88a.5.5 0 0 1-.698.591l-1.843-.849a1 1 0 0 0-.879.001l-1.846.85a.5.5 0 0 1-.692-.593l1.29-4.88"/><circle cx="6" cy="14" r="3"/></g></g>
+<g class="in d1"><text x="90" y="49" font-size="20" font-weight="650" letter-spacing="-.015em">ADCS ESC Lab</text>
+<text x="90" y="70" class="mono" font-size="12" fill="#8f97a0">React 19 · Certipy v5</text></g>
+<g class="in d2"><text x="28" y="110" font-size="15" fill="#a3aab2">Reconoce las configuraciones débiles de AD CS</text><text x="28" y="132" font-size="15" fill="#a3aab2">por su firma y cómo mitigarlas.</text></g>
+<g class="in d3"><rect x="28" y="166" width="53" height="24" rx="12" fill="#171a1f"/><text x="54.5" y="182" font-size="11.5" font-weight="500" text-anchor="middle" fill="#a3aab2">AD CS</text><rect x="87" y="166" width="39.8" height="24" rx="12" fill="#171a1f"/><text x="106.9" y="182" font-size="11.5" font-weight="500" text-anchor="middle" fill="#a3aab2">PKI</text><rect x="132.8" y="166" width="86" height="24" rx="12" fill="#171a1f"/><text x="175.8" y="182" font-size="11.5" font-weight="500" text-anchor="middle" fill="#a3aab2">Mitigación</text></g>
+</svg>

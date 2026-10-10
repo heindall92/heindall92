@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="210" viewBox="0 0 580 210" role="img" aria-label="Norvik. Gobernanza y madurez con informes y evidencias de cumplimiento."><title>Norvik. Gobernanza y madurez con informes y evidencias de cumplimiento.</title><style>
+
+text{font-family:'Geist', -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI Variable Text', 'Segoe UI', system-ui, sans-serif;fill:#101418}
+.mono{font-family:'Geist Mono', ui-monospace, 'SF Mono', 'Cascadia Mono', Menlo, Consolas, monospace}
+/* Visible por defecto: si el visor no anima el SVG, el contenido se ve igual */
+.in{animation:in .9s cubic-bezier(.32,.72,0,1) both}
+@keyframes in{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+.d1{animation-delay:.08s}.d2{animation-delay:.16s}.d3{animation-delay:.24s}.d4{animation-delay:.32s}.d5{animation-delay:.4s}.d6{animation-delay:.48s}.d7{animation-delay:.56s}
+.flow{stroke-dasharray:4 7;animation:flow 1.6s linear infinite}
+@keyframes flow{to{stroke-dashoffset:-22}}
+
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<rect x=".5" y=".5" width="579" height="209" rx="22" fill="#ffffff" stroke="rgba(16,20,24,.14)"/>
+<g class="in"><rect x="26" y="26" width="48" height="48" rx="14" fill="rgba(26,79,224,.10)"/><g transform="translate(38 38) scale(1)" fill="none" stroke="#1a4fe0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 18v-7"/><path d="M11.119 2.205a2 2 0 0 1 1.762 0l7.84 3.846A.5.5 0 0 1 20.5 7h-17a.5.5 0 0 1-.22-.949z"/><path d="M14 18v-7"/><path d="M18 18v-7"/><path d="M3 22h18"/><path d="M6 18v-7"/></g></g>
+<g class="in d1"><text x="90" y="49" font-size="20" font-weight="650" letter-spacing="-.015em">Norvik</text>
+<text x="90" y="70" class="mono" font-size="12" fill="#5c6773">escritorio</text></g>
+<g class="in d2"><text x="28" y="110" font-size="15" fill="#2c3440">Gobernanza y madurez con informes</text><text x="28" y="132" font-size="15" fill="#2c3440">y evidencias de cumplimiento.</text></g>
+<g class="in d3"><rect x="28" y="166" width="72.8" height="24" rx="12" fill="#eef1f4"/><text x="64.4" y="182" font-size="11.5" font-weight="500" text-anchor="middle" fill="#2c3440">NIST CSF</text><rect x="106.8" y="166" width="39.8" height="24" rx="12" fill="#eef1f4"/><text x="126.69999999999999" y="182" font-size="11.5" font-weight="500" text-anchor="middle" fill="#2c3440">CIS</text><rect x="152.6" y="166" width="46.4" height="24" rx="12" fill="#eef1f4"/><text x="175.79999999999998" y="182" font-size="11.5" font-weight="500" text-anchor="middle" fill="#2c3440">RGPD</text></g>
+<rect x="400" y="132" width="22" height="16" rx="5" fill="#1a4fe0" opacity="0.5"/><rect x="430" y="116" width="22" height="32" rx="5" fill="#1a4fe0" opacity="0.75"/><rect x="460" y="100" width="22" height="48" rx="5" fill="#1a4fe0" opacity="1"/><rect x="490" y="84" width="22" height="64" rx="5" fill="#e2e6eb" opacity="1"/><rect x="520" y="68" width="22" height="80" rx="5" fill="#e2e6eb" opacity="1"/></svg>

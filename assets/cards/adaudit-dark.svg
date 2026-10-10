@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="210" viewBox="0 0 580 210" role="img" aria-label="ENS AD Auditor. Directorio Activo frente al control de acceso del ENS (op.acc)."><title>ENS AD Auditor. Directorio Activo frente al control de acceso del ENS (op.acc).</title><style>
+
+text{font-family:'Geist', -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI Variable Text', 'Segoe UI', system-ui, sans-serif;fill:#eef1f3}
+.mono{font-family:'Geist Mono', ui-monospace, 'SF Mono', 'Cascadia Mono', Menlo, Consolas, monospace}
+/* Visible por defecto: si el visor no anima el SVG, el contenido se ve igual */
+.in{animation:in .9s cubic-bezier(.32,.72,0,1) both}
+@keyframes in{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+.d1{animation-delay:.08s}.d2{animation-delay:.16s}.d3{animation-delay:.24s}.d4{animation-delay:.32s}.d5{animation-delay:.4s}.d6{animation-delay:.48s}.d7{animation-delay:.56s}
+.flow{stroke-dasharray:4 7;animation:flow 1.6s linear infinite}
+@keyframes flow{to{stroke-dashoffset:-22}}
+
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<rect x=".5" y=".5" width="579" height="209" rx="22" fill="#111317" stroke="rgba(255,255,255,.13)"/>
+<g class="in"><rect x="26" y="26" width="48" height="48" rx="14" fill="rgba(107,155,255,.14)"/><g transform="translate(38 38) scale(1)" fill="none" stroke="#6b9bff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.586 17.414A2 2 0 0 0 2 18.828V21a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h1a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h.172a2 2 0 0 0 1.414-.586l.814-.814a6.5 6.5 0 1 0-4-4z"/><circle cx="16.5" cy="7.5" r=".5" fill="currentColor"/></g></g>
+<g class="in d1"><text x="90" y="49" font-size="20" font-weight="650" letter-spacing="-.015em">ENS AD Auditor</text>
+<text x="90" y="70" class="mono" font-size="12" fill="#8f97a0">v0.4 · web + motor local</text></g>
+<g class="in d2"><text x="28" y="110" font-size="15" fill="#a3aab2">Directorio Activo frente al control</text><text x="28" y="132" font-size="15" fill="#a3aab2">de acceso del ENS (op.acc).</text></g>
+<g class="in d3"><rect x="28" y="166" width="72.8" height="24" rx="12" fill="#171a1f"/><text x="64.4" y="182" font-size="11.5" font-weight="500" text-anchor="middle" fill="#a3aab2">Kerberos</text><rect x="106.8" y="166" width="53" height="24" rx="12" fill="#171a1f"/><text x="133.3" y="182" font-size="11.5" font-weight="500" text-anchor="middle" fill="#a3aab2">AD CS</text><rect x="165.8" y="166" width="66.19999999999999" height="24" rx="12" fill="#171a1f"/><text x="198.9" y="182" font-size="11.5" font-weight="500" text-anchor="middle" fill="#a3aab2">MAGERIT</text></g>
+<line x1="404" y1="126" x2="446" y2="94" stroke="rgba(255,255,255,.13)" stroke-width="2"/><line x1="446" y1="94" x2="488" y2="122" stroke="rgba(255,255,255,.13)" stroke-width="2"/><line x1="488" y1="122" x2="532" y2="92" stroke="rgba(255,255,255,.13)" stroke-width="2"/><circle cx="404" cy="126" r="8" fill="#171a1f" stroke="#8f97a0" stroke-width="1.75" class="in d2"/><circle cx="446" cy="94" r="8" fill="#171a1f" stroke="#8f97a0" stroke-width="1.75" class="in d3"/><circle cx="488" cy="122" r="8" fill="#171a1f" stroke="#8f97a0" stroke-width="1.75" class="in d4"/><circle cx="532" cy="92" r="13" fill="rgba(107,155,255,.14)" stroke="#6b9bff" stroke-width="1.75" class="in d5"/><text x="532" y="72" class="mono" font-size="10.5" text-anchor="middle" fill="#8f97a0">DA</text></svg>

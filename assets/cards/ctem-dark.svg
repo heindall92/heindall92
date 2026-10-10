@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="210" viewBox="0 0 580 210" role="img" aria-label="CTEM-Nexus. Prioriza la exposición y dibuja las rutas de ataque a los activos críticos."><title>CTEM-Nexus. Prioriza la exposición y dibuja las rutas de ataque a los activos críticos.</title><style>
+
+text{font-family:'Geist', -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI Variable Text', 'Segoe UI', system-ui, sans-serif;fill:#eef1f3}
+.mono{font-family:'Geist Mono', ui-monospace, 'SF Mono', 'Cascadia Mono', Menlo, Consolas, monospace}
+/* Visible por defecto: si el visor no anima el SVG, el contenido se ve igual */
+.in{animation:in .9s cubic-bezier(.32,.72,0,1) both}
+@keyframes in{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+.d1{animation-delay:.08s}.d2{animation-delay:.16s}.d3{animation-delay:.24s}.d4{animation-delay:.32s}.d5{animation-delay:.4s}.d6{animation-delay:.48s}.d7{animation-delay:.56s}
+.flow{stroke-dasharray:4 7;animation:flow 1.6s linear infinite}
+@keyframes flow{to{stroke-dashoffset:-22}}
+
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<rect x=".5" y=".5" width="579" height="209" rx="22" fill="#111317" stroke="rgba(255,255,255,.13)"/>
+<g class="in"><rect x="26" y="26" width="48" height="48" rx="14" fill="rgba(107,155,255,.14)"/><g transform="translate(38 38) scale(1)" fill="none" stroke="#6b9bff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m10.586 5.414-5.172 5.172"/><path d="m18.586 13.414-5.172 5.172"/><path d="M6 12h12"/><circle cx="12" cy="20" r="2"/><circle cx="12" cy="4" r="2"/><circle cx="20" cy="12" r="2"/><circle cx="4" cy="12" r="2"/></g></g>
+<g class="in d1"><text x="90" y="49" font-size="20" font-weight="650" letter-spacing="-.015em">CTEM-Nexus</text>
+<text x="90" y="70" class="mono" font-size="12" fill="#8f97a0">v1.2 · web + API</text></g>
+<g class="in d2"><text x="28" y="110" font-size="15" fill="#a3aab2">Prioriza la exposición y dibuja las</text><text x="28" y="132" font-size="15" fill="#a3aab2">rutas de ataque a los activos críticos.</text></g>
+<g class="in d3"><rect x="28" y="166" width="39.8" height="24" rx="12" fill="#171a1f"/><text x="47.9" y="182" font-size="11.5" font-weight="500" text-anchor="middle" fill="#a3aab2">KEV</text><rect x="73.8" y="166" width="46.4" height="24" rx="12" fill="#171a1f"/><text x="97" y="182" font-size="11.5" font-weight="500" text-anchor="middle" fill="#a3aab2">EPSS</text><rect x="126.19999999999999" y="166" width="59.599999999999994" height="24" rx="12" fill="#171a1f"/><text x="156" y="182" font-size="11.5" font-weight="500" text-anchor="middle" fill="#a3aab2">ATT&amp;CK</text><rect x="191.79999999999998" y="166" width="86" height="24" rx="12" fill="#171a1f"/><text x="234.79999999999998" y="182" font-size="11.5" font-weight="500" text-anchor="middle" fill="#a3aab2">BloodHound</text></g>
+<line x1="394" y1="72" x2="546" y2="72" stroke="#1e2228" stroke-width="2"/><circle cx="533.84" cy="72" r="5.5" fill="#ff5d5d"/><circle cx="533.84" cy="72" r="9" fill="none" stroke="#eef1f3" stroke-width="1.5"/><circle cx="485.2" cy="72" r="5.5" fill="#6b9bff"/><line x1="394" y1="96" x2="546" y2="96" stroke="#1e2228" stroke-width="2"/><circle cx="521.6800000000001" cy="96" r="5.5" fill="#ff5d5d"/><circle cx="454.8" cy="96" r="5.5" fill="#6b9bff"/><line x1="394" y1="120" x2="546" y2="120" stroke="#1e2228" stroke-width="2"/><circle cx="501.92" cy="120" r="5.5" fill="#ff9f43"/><circle cx="444.16" cy="120" r="5.5" fill="#6b9bff"/><circle cx="421.36" cy="120" r="5.5" fill="#6b9bff"/><line x1="394" y1="144" x2="546" y2="144" stroke="#1e2228" stroke-width="2"/><circle cx="473.04" cy="144" r="5.5" fill="#6b9bff"/></svg>

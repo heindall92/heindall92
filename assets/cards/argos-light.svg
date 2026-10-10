@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="210" viewBox="0 0 580 210" role="img" aria-label="ARGOS. Laboratorio GRC al estilo HTB: rutas, máquinas con flags y simulacros."><title>ARGOS. Laboratorio GRC al estilo HTB: rutas, máquinas con flags y simulacros.</title><style>
+
+text{font-family:'Geist', -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI Variable Text', 'Segoe UI', system-ui, sans-serif;fill:#101418}
+.mono{font-family:'Geist Mono', ui-monospace, 'SF Mono', 'Cascadia Mono', Menlo, Consolas, monospace}
+/* Visible por defecto: si el visor no anima el SVG, el contenido se ve igual */
+.in{animation:in .9s cubic-bezier(.32,.72,0,1) both}
+@keyframes in{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+.d1{animation-delay:.08s}.d2{animation-delay:.16s}.d3{animation-delay:.24s}.d4{animation-delay:.32s}.d5{animation-delay:.4s}.d6{animation-delay:.48s}.d7{animation-delay:.56s}
+.flow{stroke-dasharray:4 7;animation:flow 1.6s linear infinite}
+@keyframes flow{to{stroke-dashoffset:-22}}
+
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<rect x=".5" y=".5" width="579" height="209" rx="22" fill="#ffffff" stroke="rgba(16,20,24,.14)"/>
+<g class="in"><rect x="26" y="26" width="48" height="48" rx="14" fill="rgba(26,79,224,.10)"/><g transform="translate(38 38) scale(1)" fill="none" stroke="#1a4fe0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0"/><circle cx="12" cy="12" r="3"/></g></g>
+<g class="in d1"><text x="90" y="49" font-size="20" font-weight="650" letter-spacing="-.015em">ARGOS</text>
+<text x="90" y="70" class="mono" font-size="12" fill="#5c6773">v1.3 · web</text></g>
+<g class="in d2"><text x="28" y="110" font-size="15" fill="#2c3440">Laboratorio GRC al estilo HTB: rutas,</text><text x="28" y="132" font-size="15" fill="#2c3440">máquinas con flags y simulacros.</text></g>
+<g class="in d3"><rect x="28" y="166" width="39.8" height="24" rx="12" fill="#eef1f4"/><text x="47.9" y="182" font-size="11.5" font-weight="500" text-anchor="middle" fill="#2c3440">ENS</text><rect x="73.8" y="166" width="79.4" height="24" rx="12" fill="#eef1f4"/><text x="113.5" y="182" font-size="11.5" font-weight="500" text-anchor="middle" fill="#2c3440">ISO 27001</text><rect x="159.2" y="166" width="79.4" height="24" rx="12" fill="#eef1f4"/><text x="198.89999999999998" y="182" font-size="11.5" font-weight="500" text-anchor="middle" fill="#2c3440">ISO 22301</text></g>
+<circle cx="426" cy="94" r="9" fill="rgba(26,79,224,.10)" stroke="#1a4fe0" stroke-width="2"/><circle cx="426" cy="94" r="3.5" fill="#1a4fe0"/><circle cx="454" cy="94" r="9" fill="rgba(26,79,224,.10)" stroke="#1a4fe0" stroke-width="2"/><circle cx="454" cy="94" r="3.5" fill="#1a4fe0"/><circle cx="482" cy="94" r="9" fill="rgba(26,79,224,.10)" stroke="#1a4fe0" stroke-width="2"/><circle cx="482" cy="94" r="3.5" fill="#1a4fe0"/><circle cx="510" cy="94" r="9" fill="rgba(26,79,224,.10)" stroke="#1a4fe0" stroke-width="2"/><circle cx="510" cy="94" r="3.5" fill="#1a4fe0"/><circle cx="538" cy="94" r="9" fill="rgba(26,79,224,.10)" stroke="#1a4fe0" stroke-width="2"/><circle cx="538" cy="94" r="3.5" fill="#1a4fe0"/><circle cx="426" cy="122" r="9" fill="rgba(26,79,224,.10)" stroke="#1a4fe0" stroke-width="2"/><circle cx="426" cy="122" r="3.5" fill="#1a4fe0"/><circle cx="454" cy="122" r="9" fill="none" stroke="#e2e6eb" stroke-width="2"/><circle cx="482" cy="122" r="9" fill="none" stroke="#e2e6eb" stroke-width="2"/><circle cx="510" cy="122" r="9" fill="none" stroke="#e2e6eb" stroke-width="2"/><circle cx="538" cy="122" r="9" fill="none" stroke="#e2e6eb" stroke-width="2"/></svg>

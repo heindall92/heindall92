@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="210" viewBox="0 0 580 210" role="img" aria-label="JUDAS. Automatiza auditorías de Active Directory en laboratorios y entrega rutas priorizadas."><title>JUDAS. Automatiza auditorías de Active Directory en laboratorios y entrega rutas priorizadas.</title><style>
+
+text{font-family:'Geist', -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI Variable Text', 'Segoe UI', system-ui, sans-serif;fill:#eef1f3}
+.mono{font-family:'Geist Mono', ui-monospace, 'SF Mono', 'Cascadia Mono', Menlo, Consolas, monospace}
+/* Visible por defecto: si el visor no anima el SVG, el contenido se ve igual */
+.in{animation:in .9s cubic-bezier(.32,.72,0,1) both}
+@keyframes in{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+.d1{animation-delay:.08s}.d2{animation-delay:.16s}.d3{animation-delay:.24s}.d4{animation-delay:.32s}.d5{animation-delay:.4s}.d6{animation-delay:.48s}.d7{animation-delay:.56s}
+.flow{stroke-dasharray:4 7;animation:flow 1.6s linear infinite}
+@keyframes flow{to{stroke-dashoffset:-22}}
+
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<rect x=".5" y=".5" width="579" height="209" rx="22" fill="#111317" stroke="rgba(255,255,255,.13)"/>
+<g class="in"><rect x="26" y="26" width="48" height="48" rx="14" fill="rgba(107,155,255,.14)"/><g transform="translate(38 38) scale(1)" fill="none" stroke="#6b9bff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="16" y="16" width="6" height="6" rx="1"/><rect x="2" y="16" width="6" height="6" rx="1"/><rect x="9" y="2" width="6" height="6" rx="1"/><path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3"/><path d="M12 12V8"/></g></g>
+<g class="in d1"><text x="90" y="49" font-size="20" font-weight="650" letter-spacing="-.015em">JUDAS</text>
+<text x="90" y="70" class="mono" font-size="12" fill="#8f97a0">Python · labs autorizados</text></g>
+<g class="in d2"><text x="28" y="110" font-size="15" fill="#a3aab2">Automatiza auditorías de Active Directory en</text><text x="28" y="132" font-size="15" fill="#a3aab2">laboratorios y entrega rutas priorizadas.</text></g>
+<g class="in d3"><rect x="28" y="166" width="125.6" height="24" rx="12" fill="#171a1f"/><text x="90.8" y="182" font-size="11.5" font-weight="500" text-anchor="middle" fill="#a3aab2">Active Directory</text><rect x="159.6" y="166" width="79.4" height="24" rx="12" fill="#171a1f"/><text x="199.3" y="182" font-size="11.5" font-weight="500" text-anchor="middle" fill="#a3aab2">HTB · THM</text><rect x="245" y="166" width="79.4" height="24" rx="12" fill="#171a1f"/><text x="284.7" y="182" font-size="11.5" font-weight="500" text-anchor="middle" fill="#a3aab2">Solo labs</text></g>
+</svg>
