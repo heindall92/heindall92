@@ -74,10 +74,11 @@ function hero(th) {
 <g class="in"><text x="64" y="86" class="mono" font-size="14" letter-spacing=".08em" fill="${t.ink3}">HEINDALL92 · HUELVA, ESPAÑA</text></g>
 <g class="in d1"><text x="62" y="160" font-size="58" font-weight="650" letter-spacing="-.03em">Yoandy Ramírez</text>
 <text x="62" y="222" font-size="58" font-weight="650" letter-spacing="-.03em">Delgado</text></g>
-<g class="in d2"><text x="64" y="270" font-size="17" font-weight="500" fill="${t.ink2}">Junior Pentester · eJPTv2 · AI Governance (ISO 42001) · SysAdmin</text></g>
-<g class="in d3"><text x="64" y="330" font-size="17" fill="${t.ink3}">Rompo sistemas con permiso y construyo, en abierto y en español,</text>
-<text x="64" y="356" font-size="17" fill="${t.ink3}">las herramientas GRC que convierten lo encontrado en cumplimiento.</text></g>
-<g class="in d4">${icon('map-pin', 64, 384, 16, t.acc)}<text x="88" y="397" font-size="14" fill="${t.ink3}">Híbrido en Huelva y Madrid · remoto en España y la UE</text></g>
+<g class="in d2"><text x="64" y="268" font-size="18" font-weight="600" fill="${t.ink}">Pentester · AI Security y agentes de IA</text>
+<text x="64" y="294" font-size="15" font-weight="500" fill="${t.ink2}">Active Directory · Web · DFIR · ENS · NIS2 · ISO 27001 · ISO 42001 · eJPTv2</text></g>
+<g class="in d3"><text x="64" y="340" font-size="16.5" fill="${t.ink3}">Rompo sistemas con permiso y construyo, en abierto y en español,</text>
+<text x="64" y="364" font-size="16.5" fill="${t.ink3}">las herramientas GRC que convierten lo encontrado en cumplimiento.</text></g>
+<g class="in d4">${icon('map-pin', 64, 390, 16, t.acc)}<text x="88" y="403" font-size="14" fill="${t.ink3}">Híbrido en Huelva y Madrid · remoto en España y la UE</text></g>
 <line x1="${lx - 128}" y1="56" x2="${lx - 128}" y2="${H - 56}" stroke="${t.line}"/>
 <text x="${lx - 92}" y="56" class="mono" font-size="11" letter-spacing=".08em" fill="${t.ink3}">OFENSIVO</text>
 <text x="${rx + 92}" y="56" class="mono" font-size="11" letter-spacing=".08em" fill="${t.ink3}" text-anchor="end">GRC</text>
@@ -89,14 +90,14 @@ ${grc.map(([l, y], i) => chip(rx, y, l, 'start', `d${i + 2}`)).join('')}
 <text x="${cx}" y="${cy + 94}" font-size="12.5" text-anchor="middle" fill="${t.ink3}">del hallazgo técnico al control</text></g>
 <g class="in d6"><rect x="${lx - 92}" y="${H - 84}" width="${rx - lx + 184}" height="40" rx="12" fill="${t.s1}" stroke="${t.line}"/>
 ${icon('blocks', lx - 76, H - 74, 20, t.acc)}<text x="${lx - 48}" y="${H - 59}" font-size="13.5" fill="${t.ink2}"><tspan font-weight="600" fill="${t.ink}">7 herramientas, un formato:</tspan> yrd-ecosistema</text></g>`;
-  return svg(W, H, 'Yoandy Ramírez Delgado · Junior Pentester · eJPTv2 · AI Governance (ISO 42001) · SysAdmin. Puente entre lo ofensivo y el GRC.', body);
+  return svg(W, H, 'Yoandy Ramírez Delgado · Pentester · AI Security y agentes de IA · Active Directory · Web · DFIR · ENS · NIS2 · ISO 27001 · ISO 42001 · eJPTv2. Puente entre lo ofensivo y el GRC.', body);
 }
 
 /* ───────── Cifras ───────── */
 function stats(th) {
   const t = THEMES[th];
   const W = 1200, H = 150;
-  const items = [['7', 'herramientas GRC abiertas'], ['15', 'normas y leyes en Rosetta'], ['152', 'controles unificados'], ['45+', 'máquinas comprometidas'], ['0', 'peticiones a terceros']];
+  const items = [['7', 'herramientas GRC abiertas'], ['15', 'normas y leyes en Rosetta'], ['152', 'controles unificados'], ['89', 'máquinas en Hack The Box'], ['0', 'peticiones a terceros']];
   const cw = W / items.length;
   const body = `${style(t, { fonts: true })}
 <rect width="${W}" height="${H}" rx="24" fill="${t.s1}" stroke="${t.line}"/>
@@ -201,15 +202,38 @@ const TOOLS = [
   { id: 'argos', name: 'ARGOS', meta: 'v1.3 · web', ic: 'eye', sig: 'eyes', desc: ['Laboratorio GRC al estilo HTB: rutas,', 'máquinas con flags y simulacros.'], tags: ['ENS', 'ISO 27001', 'ISO 22301'] },
   { id: 'norvik', name: 'Norvik', meta: 'escritorio', ic: 'landmark', sig: 'maturity', desc: ['Gobernanza y madurez con informes', 'y evidencias de cumplimiento.'], tags: ['NIST CSF', 'CIS', 'RGPD'] },
 ];
-const OFFENSIVE = [
-  { id: 'darkspear', name: 'Dark Spear', meta: 'Python · FastAPI · panel ES/EN', ic: 'crosshair', desc: ['Auditoría autorizada por fases, con aprobación', 'humana en cada paso y un informe defendible.'], tags: ['Scope-lock', 'ATT&CK', 'Informe'] },
-  { id: 'judas', name: 'JUDAS', meta: 'Python · labs autorizados', ic: 'network', desc: ['Automatiza auditorías de Active Directory en', 'laboratorios y entrega rutas priorizadas.'], tags: ['Active Directory', 'HTB · THM', 'Solo labs'] },
-  { id: 'privesc', name: 'AD PrivEsc Lab', meta: 'Laboratorio visual local', ic: 'chevrons-up', desc: ['Escalada de privilegios en AD por firma, no de', 'memoria: observar, reconocer y mitigar.'], tags: ['Active Directory', 'Firmas', 'Mitigación'] },
-  { id: 'adcs', name: 'ADCS ESC Lab', meta: 'React 19 · Certipy v5', ic: 'file-badge', desc: ['Reconoce las configuraciones débiles de AD CS', 'por su firma y cómo mitigarlas.'], tags: ['AD CS', 'PKI', 'Mitigación'] },
-  { id: 'valhalla', name: 'Valhalla SOC', meta: 'Proyecto del Máster · Blue Team', ic: 'radar', desc: ['Un SOC que cabe en un portátil: detecta,', 'investiga con IA local e informa.'], tags: ['Wazuh', 'Honeypot', 'IA local'] },
-  { id: 'stormbreaker', name: 'Stormbreaker', meta: 'DFIR', ic: 'hard-drive', desc: ['Consola de análisis forense avanzado', 'para responder a incidentes.'], tags: ['DFIR', 'Forense', 'Blue Team'] },
-  { id: 'heimdall', name: 'Heimdall TimeWatch', meta: 'DFIR · NTFS', ic: 'clock', desc: ['Detecta la manipulación de marcas de tiempo', 'en NTFS, mapeada a MITRE ATT&CK.'], tags: ['NTFS', 'ATT&CK', 'DFIR'] },
+/* Repositorios por categoría, en tarjeta compacta: nombre, repositorio, qué hace y etiquetas */
+const REPOS = [
+  { id: 'darkspear', name: 'Dark Spear', repo: 'dark_spear', ic: 'crosshair', desc: ['Auditoría autorizada por fases, con aprobación', 'humana en cada paso y un informe defendible.'], tags: ['Python', 'FastAPI', 'ATT&CK'] },
+  { id: 'skadi', name: 'SKADI', repo: 'skadi', ic: 'radar', desc: ['Escáner web que orquesta herramientas abiertas', 'y resume los resultados con IA local.'], tags: ['Python', 'Ollama', 'Informes'] },
+  { id: 'judas', name: 'JUDAS', repo: 'Judas_Pentesting-Tool', ic: 'network', desc: ['Auditoría de Active Directory en laboratorios', 'autorizados, con estado entre sesiones.'], tags: ['Python', 'Active Directory', 'HTB'] },
+  { id: 'privesc', name: 'AD PrivEsc Lab', repo: 'AD-PrivEsc-Lab', ic: 'chevrons-up', desc: ['Escalada de privilegios en AD por firma,', 'no de memoria: reconocer y mitigar.'], tags: ['Laboratorio', 'Active Directory'] },
+  { id: 'adcs', name: 'ADCS ESC Lab', repo: 'ADCS-ESC-Lab', ic: 'file-badge', desc: ['Configuraciones débiles de AD CS por su', 'firma, con su mitigación.'], tags: ['React 19', 'Certipy', 'PKI'] },
+  { id: 'valhalla', name: 'Valhalla SOC', repo: 'Proyecto-Master-Ciberseguridad-Evolve-Yoandy', short: 'Proyecto del Máster', ic: 'shield', desc: ['Un SOC que cabe en un portátil: detecta,', 'investiga con IA local e informa.'], tags: ['Wazuh', 'Docker', 'IA local'] },
+  { id: 'stormbreaker', name: 'Stormbreaker', repo: 'stormbreaker', ic: 'hard-drive', desc: ['Consola de análisis forense avanzado', 'para responder a incidentes.'], tags: ['DFIR', 'Forense'] },
+  { id: 'heimdall', name: 'Heimdall TimeWatch', repo: 'heimdall-timewatch_DFIR', ic: 'clock', desc: ['Detecta la manipulación de marcas de', 'tiempo en NTFS, mapeada a ATT&CK.'], tags: ['DFIR', 'NTFS', 'ATT&CK'] },
+  { id: 'camponorte', name: 'Campo Norte', repo: 'campo-norte2', ic: 'layers', desc: ['Torre de control logística para almacenes:', 'stock, ubicaciones, turnos y costes.'], tags: ['WMS', 'React', 'SaaS'] },
+  { id: 'webexpress', name: 'Auditoría Web Express', repo: 'auditoria-ad-express', ic: 'globe', desc: ['Web del servicio de auditoría web express,', 'sin build y publicada en GitHub Pages.'], tags: ['HTML', 'CSS', 'JS'] },
+  { id: 'todos', name: 'Todos los repositorios', repo: '', short: 'github.com/heindall92', ic: 'blocks', desc: ['32 repositorios: herramientas, laboratorios,', 'proyectos del máster y producto.'], tags: ['Ver todos'] },
+  { id: 'portfolio', name: 'Portfolio', repo: 'yoandy-portfolio', short: 'yoandyramirez.com', ic: 'briefcase', desc: ['Proyectos, laboratorios, certificaciones', 'y contacto en una sola página.'], tags: ['Web', 'Portfolio'] },
 ];
+
+function repoCard(th, c) {
+  const t = THEMES[th];
+  const W = 580, H = 150;
+  const slug = c.short || `heindall92/${c.repo}`;
+  const tags = [...c.tags].reverse().reduce((acc, tag) => { const w = tag.length * 6.4 + 18; acc.x -= w; acc.out += `<rect x="${acc.x}" y="22" width="${w}" height="22" rx="11" fill="${t.s2}"/><text x="${acc.x + w / 2}" y="37" font-size="11" font-weight="500" text-anchor="middle" fill="${t.ink2}">${esc(tag)}</text>`; acc.x -= 6; return acc; }, { x: W - 22, out: '' });
+  const body = `${style(t)}
+<rect x=".5" y=".5" width="${W - 1}" height="${H - 1}" rx="20" fill="${t.s1}" stroke="${t.line2}"/>
+<g class="in"><rect x="22" y="22" width="40" height="40" rx="12" fill="${t.accT}"/>${icon(c.ic, 32, 32, 20, t.acc)}</g>
+<g class="in d1"><text x="76" y="39" font-size="17" font-weight="650" letter-spacing="-.01em">${esc(c.name)}</text>
+<text x="76" y="58" class="mono" font-size="11.5" fill="${t.ink3}">${esc(slug.length > 34 ? slug.slice(0, 33) + '…' : slug)}</text></g>
+<g class="in d2">${tags.out}</g>
+<g class="in d3">${c.desc.map((l, i) => `<text x="22" y="${96 + i * 21}" font-size="14.5" fill="${t.ink2}">${esc(l)}</text>`).join('')}</g>`;
+  if (c.desc.some((l) => l.length * 7.4 > W - 44)) console.warn(`Texto largo en ${c.name}`);
+  if (tags.x < 300) console.warn(`Etiquetas largas en ${c.name}`);
+  return svg(W, H, `${c.name} (${slug}). ${c.desc.join(' ')}`, body);
+}
 
 /* ───────── Botones de contacto ───────── */
 const LINKS = [
@@ -260,7 +284,8 @@ for (const th of Object.keys(THEMES)) {
   write('stats', th, stats(th));
   write('ecosistema', th, ecosistema(th));
   write('stack', th, stack(th));
-  for (const c of [...TOOLS, ...OFFENSIVE]) fs.writeFileSync(path.join(OUT, 'cards', `${c.id}-${th}.svg`), card(th, c));
+  for (const c of TOOLS) fs.writeFileSync(path.join(OUT, 'cards', `${c.id}-${th}.svg`), card(th, c));
+  for (const c of REPOS) fs.writeFileSync(path.join(OUT, 'cards', `${c.id}-${th}.svg`), repoCard(th, c));
   for (const l of LINKS) fs.writeFileSync(path.join(OUT, 'links', `${l.id}-${th}.svg`), pill(th, l));
 }
-console.log(`OK: ${2 * (4 + TOOLS.length + OFFENSIVE.length + LINKS.length)} SVG en assets/`);
+console.log(`OK: ${2 * (4 + TOOLS.length + REPOS.length + LINKS.length)} SVG en assets/`);

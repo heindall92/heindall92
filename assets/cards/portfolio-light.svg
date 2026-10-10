@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="150" viewBox="0 0 580 150" role="img" aria-label="Portfolio (yoandyramirez.com). Proyectos, laboratorios, certificaciones y contacto en una sola página."><title>Portfolio (yoandyramirez.com). Proyectos, laboratorios, certificaciones y contacto en una sola página.</title><style>
+
+text{font-family:'Geist', -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI Variable Text', 'Segoe UI', system-ui, sans-serif;fill:#101418}
+.mono{font-family:'Geist Mono', ui-monospace, 'SF Mono', 'Cascadia Mono', Menlo, Consolas, monospace}
+/* Visible por defecto: si el visor no anima el SVG, el contenido se ve igual */
+.in{animation:in .9s cubic-bezier(.32,.72,0,1) both}
+@keyframes in{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+.d1{animation-delay:.08s}.d2{animation-delay:.16s}.d3{animation-delay:.24s}.d4{animation-delay:.32s}.d5{animation-delay:.4s}.d6{animation-delay:.48s}.d7{animation-delay:.56s}
+.flow{stroke-dasharray:4 7;animation:flow 1.6s linear infinite}
+@keyframes flow{to{stroke-dashoffset:-22}}
+
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<rect x=".5" y=".5" width="579" height="149" rx="20" fill="#ffffff" stroke="rgba(16,20,24,.14)"/>
+<g class="in"><rect x="22" y="22" width="40" height="40" rx="12" fill="rgba(26,79,224,.10)"/><g transform="translate(32 32) scale(0.8333333333333334)" fill="none" stroke="#1a4fe0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/><rect width="20" height="14" x="2" y="6" rx="2"/></g></g>
+<g class="in d1"><text x="76" y="39" font-size="17" font-weight="650" letter-spacing="-.01em">Portfolio</text>
+<text x="76" y="58" class="mono" font-size="11.5" fill="#5c6773">yoandyramirez.com</text></g>
+<g class="in d2"><rect x="482.4" y="22" width="75.6" height="22" rx="11" fill="#eef1f4"/><text x="520.1999999999999" y="37" font-size="11" font-weight="500" text-anchor="middle" fill="#2c3440">Portfolio</text><rect x="439.2" y="22" width="37.2" height="22" rx="11" fill="#eef1f4"/><text x="457.8" y="37" font-size="11" font-weight="500" text-anchor="middle" fill="#2c3440">Web</text></g>
+<g class="in d3"><text x="22" y="96" font-size="14.5" fill="#2c3440">Proyectos, laboratorios, certificaciones</text><text x="22" y="117" font-size="14.5" fill="#2c3440">y contacto en una sola página.</text></g></svg>

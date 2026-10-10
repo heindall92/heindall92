@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="150" viewBox="0 0 580 150" role="img" aria-label="Auditoría Web Express (heindall92/auditoria-ad-express). Web del servicio de auditoría web express, sin build y publicada en GitHub Pages."><title>Auditoría Web Express (heindall92/auditoria-ad-express). Web del servicio de auditoría web express, sin build y publicada en GitHub Pages.</title><style>
+
+text{font-family:'Geist', -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI Variable Text', 'Segoe UI', system-ui, sans-serif;fill:#101418}
+.mono{font-family:'Geist Mono', ui-monospace, 'SF Mono', 'Cascadia Mono', Menlo, Consolas, monospace}
+/* Visible por defecto: si el visor no anima el SVG, el contenido se ve igual */
+.in{animation:in .9s cubic-bezier(.32,.72,0,1) both}
+@keyframes in{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+.d1{animation-delay:.08s}.d2{animation-delay:.16s}.d3{animation-delay:.24s}.d4{animation-delay:.32s}.d5{animation-delay:.4s}.d6{animation-delay:.48s}.d7{animation-delay:.56s}
+.flow{stroke-dasharray:4 7;animation:flow 1.6s linear infinite}
+@keyframes flow{to{stroke-dashoffset:-22}}
+
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<rect x=".5" y=".5" width="579" height="149" rx="20" fill="#ffffff" stroke="rgba(16,20,24,.14)"/>
+<g class="in"><rect x="22" y="22" width="40" height="40" rx="12" fill="rgba(26,79,224,.10)"/><g transform="translate(32 32) scale(0.8333333333333334)" fill="none" stroke="#1a4fe0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></g></g>
+<g class="in d1"><text x="76" y="39" font-size="17" font-weight="650" letter-spacing="-.01em">Auditoría Web Express</text>
+<text x="76" y="58" class="mono" font-size="11.5" fill="#5c6773">heindall92/auditoria-ad-express</text></g>
+<g class="in d2"><rect x="527.2" y="22" width="30.8" height="22" rx="11" fill="#eef1f4"/><text x="542.6" y="37" font-size="11" font-weight="500" text-anchor="middle" fill="#2c3440">JS</text><rect x="484.00000000000006" y="22" width="37.2" height="22" rx="11" fill="#eef1f4"/><text x="502.6000000000001" y="37" font-size="11" font-weight="500" text-anchor="middle" fill="#2c3440">CSS</text><rect x="434.40000000000003" y="22" width="43.6" height="22" rx="11" fill="#eef1f4"/><text x="456.20000000000005" y="37" font-size="11" font-weight="500" text-anchor="middle" fill="#2c3440">HTML</text></g>
+<g class="in d3"><text x="22" y="96" font-size="14.5" fill="#2c3440">Web del servicio de auditoría web express,</text><text x="22" y="117" font-size="14.5" fill="#2c3440">sin build y publicada en GitHub Pages.</text></g></svg>
