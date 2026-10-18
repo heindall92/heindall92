@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="210" viewBox="0 0 580 210" role="img" aria-label="MCP-Shield. Audita las configuraciones MCP de los asistentes de IA, sin salir del navegador."><title>MCP-Shield. Audita las configuraciones MCP de los asistentes de IA, sin salir del navegador.</title><style>
+
+text{font-family:'Geist', -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI Variable Text', 'Segoe UI', system-ui, sans-serif;fill:#101418}
+.mono{font-family:'Geist Mono', ui-monospace, 'SF Mono', 'Cascadia Mono', Menlo, Consolas, monospace}
+/* Visible por defecto: si el visor no anima el SVG, el contenido se ve igual */
+.in{animation:in .9s cubic-bezier(.32,.72,0,1) both}
+@keyframes in{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+.d1{animation-delay:.08s}.d2{animation-delay:.16s}.d3{animation-delay:.24s}.d4{animation-delay:.32s}.d5{animation-delay:.4s}.d6{animation-delay:.48s}.d7{animation-delay:.56s}
+.flow{stroke-dasharray:4 7;animation:flow 1.6s linear infinite}
+@keyframes flow{to{stroke-dashoffset:-22}}
+
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<rect x=".5" y=".5" width="579" height="209" rx="22" fill="#ffffff" stroke="rgba(16,20,24,.14)"/>
+<g class="in"><rect x="26" y="26" width="48" height="48" rx="14" fill="rgba(26,79,224,.10)"/><g transform="translate(38 38) scale(1)" fill="none" stroke="#1a4fe0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 8V4H8"/><rect width="16" height="12" x="4" y="8" rx="2"/><path d="M2 14h2"/><path d="M20 14h2"/><path d="M15 13v2"/><path d="M9 13v2"/></g></g>
+<g class="in d1"><text x="90" y="49" font-size="20" font-weight="650" letter-spacing="-.015em">MCP-Shield</text>
+<text x="90" y="70" class="mono" font-size="12" fill="#5c6773">v1.6 · web</text></g>
+<g class="in d2"><text x="28" y="110" font-size="15" fill="#2c3440">Audita las configuraciones MCP de los</text><text x="28" y="132" font-size="15" fill="#2c3440">asistentes de IA, sin salir del navegador.</text></g>
+<g class="in d3"><rect x="28" y="166" width="105.8" height="24" rx="12" fill="#eef1f4"/><text x="80.9" y="182" font-size="11.5" font-weight="500" text-anchor="middle" fill="#2c3440">OWASP Agentic</text><rect x="139.8" y="166" width="53" height="24" rx="12" fill="#eef1f4"/><text x="166.3" y="182" font-size="11.5" font-weight="500" text-anchor="middle" fill="#2c3440">SARIF</text><rect x="198.8" y="166" width="79.4" height="24" rx="12" fill="#eef1f4"/><text x="238.5" y="182" font-size="11.5" font-weight="500" text-anchor="middle" fill="#2c3440">ISO 42001</text></g>
+<rect x="386" y="75" width="16" height="6" rx="3" fill="#a8234a" class="in d2"/><path d="M408 78h12" stroke="rgba(16,20,24,.14)" stroke-width="1.5" stroke-dasharray="2 3"/><rect x="386" y="103" width="16" height="6" rx="3" fill="#9c3d08" class="in d3"/><path d="M408 106h12" stroke="rgba(16,20,24,.14)" stroke-width="1.5" stroke-dasharray="2 3"/><rect x="386" y="131" width="16" height="6" rx="3" fill="#a8234a" class="in d4"/><path d="M408 134h12" stroke="rgba(16,20,24,.14)" stroke-width="1.5" stroke-dasharray="2 3"/><g transform="translate(430.8 64.8) scale(3.6)"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" fill="rgba(26,79,224,.10)" stroke="#1a4fe0" stroke-width="0.486" stroke-linejoin="round"/><path d="m9 12 2 2 4-4" fill="none" stroke="#1a4fe0" stroke-width="0.611" stroke-linecap="round" stroke-linejoin="round"/></g><line x1="446.64" y1="114" x2="501.36" y2="114" stroke="#1a4fe0" stroke-width="1.5" opacity=".55"/></svg>

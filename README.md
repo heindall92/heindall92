@@ -25,16 +25,16 @@ Lo que me diferencia es el **puente**: un hallazgo técnico no sirve de nada has
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg">
-  <img src="assets/stats-light.svg" width="100%" alt="7 herramientas GRC abiertas, 15 normas y leyes en Rosetta, 152 controles unificados, 89 máquinas en Hack The Box y 0 peticiones a terceros.">
+  <img src="assets/stats-light.svg" width="100%" alt="8 herramientas GRC abiertas, 15 normas y leyes en Rosetta, 152 controles unificados, 89 máquinas en Hack The Box y 0 peticiones a terceros.">
 </picture>
 
 ## Ecosistema GRC abierto
 
-Siete herramientas, un formato de intercambio común (`yrd-ecosistema`). Cada una hace una cosa bien y le pasa el resultado a la siguiente: el BIA de KAIROS fija la criticidad en CTEM-Nexus, los hallazgos de CTEM-Nexus se convierten en evidencia por control en Rosetta y cada hallazgo enlaza a la máquina de ARGOS donde se practica su corrección.
+Ocho herramientas, un formato de intercambio común (`yrd-ecosistema`). Cada una hace una cosa bien y le pasa el resultado a la siguiente: el BIA de KAIROS fija la criticidad en CTEM-Nexus, los hallazgos de CTEM-Nexus se convierten en evidencia por control en Rosetta y cada hallazgo enlaza a la máquina de ARGOS donde se practica su corrección.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/ecosistema-dark.svg">
-  <img src="assets/ecosistema-light.svg" width="100%" alt="Diagrama del ecosistema con CTEM-Nexus en el centro. KAIROS envía su BIA y recibe el riesgo de interrupción, Compliance Studio envía la SoA, ENS AD Auditor envía hallazgos, Rosetta recibe evidencia y devuelve el estado de los controles, Norvik recibe indicadores y devuelve responsables y ARGOS recibe enlaces de práctica.">
+  <img src="assets/ecosistema-light.svg" width="100%" alt="Diagrama del ecosistema con CTEM-Nexus en el centro. KAIROS envía su BIA y recibe el riesgo de interrupción, Compliance Studio envía la SoA, ENS AD Auditor y MCP-Shield envían hallazgos, Rosetta recibe evidencia y devuelve el estado de los controles, Norvik recibe indicadores y devuelve responsables y ARGOS recibe enlaces de práctica.">
 </picture>
 
 <table>
@@ -74,6 +74,12 @@ Siete herramientas, un formato de intercambio común (`yrd-ecosistema`). Cada un
 <sub>Aplicación de escritorio · <a href="https://github.com/heindall92/Norvik_Gobernanza">Código y vídeo</a></sub>
 </td>
 <td width="50%" valign="top">
+<a href="https://heindall92.github.io/mcp-shield/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/mcpshield-dark.svg"><img src="assets/cards/mcpshield-light.svg" width="100%" alt="MCP-Shield: audita las configuraciones MCP de los asistentes de IA, sin salir del navegador."></picture></a>
+<sub><a href="https://heindall92.github.io/mcp-shield/">Abrir la app</a> · <a href="https://github.com/heindall92/mcp-shield">Código</a></sub>
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
 <b>Cómo están hechas</b>
 <ul>
 <li>Funcionan en el navegador: sin cuentas, sin servidor y sin telemetría.</li>
@@ -153,7 +159,7 @@ Si trabajas en consultoría, banca o cumplimiento en España o Latinoamérica y 
 
 Pentester focused on Active Directory, web and DFIR, and on AI security and AI agents. eJPTv2 (86 %), 4+ years in IT systems and networks, 89 machines on Hack The Box plus TryHackMe, HackMyVM and The Hacker Labs, preparing CPTS and OSCP, and studying a Master's in Cybersecurity & AI (Evolve Academy).
 
-I bridge offensive security and GRC. I build seven open-source GRC tools, in Spanish and English, that run in the browser without sending data anywhere and share one exchange format: Rosetta (15 standards and laws on 152 unified controls), CTEM-Nexus (exposure management and attack paths to critical assets), KAIROS (BIA, BCP and DRP), ENS Compliance Studio, ENS AD Auditor, ARGOS (a Hack The Box–style GRC lab) and Norvik (governance).
+I bridge offensive security and GRC. I build eight open-source GRC tools, in Spanish and English, that run in the browser without sending data anywhere and share one exchange format: Rosetta (15 standards and laws on 152 unified controls), CTEM-Nexus (exposure management and attack paths to critical assets), KAIROS (BIA, BCP and DRP), ENS Compliance Studio, ENS AD Auditor, ARGOS (a Hack The Box–style GRC lab), MCP-Shield (audits the MCP configurations of AI assistants) and Norvik (governance).
 
 Based in Huelva, Spain. Hybrid in Huelva and Madrid, remote across Spain and the EU. Spanish native, professional English.
 
