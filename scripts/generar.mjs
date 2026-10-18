@@ -89,7 +89,7 @@ ${grc.map(([l, y], i) => chip(rx, y, l, 'start', `d${i + 2}`)).join('')}
 <g class="in d5"><text x="${cx}" y="${cy + 74}" font-size="13" font-weight="600" text-anchor="middle" fill="${t.ink}">El puente</text>
 <text x="${cx}" y="${cy + 94}" font-size="12.5" text-anchor="middle" fill="${t.ink3}">del hallazgo técnico al control</text></g>
 <g class="in d6"><rect x="${lx - 92}" y="${H - 84}" width="${rx - lx + 184}" height="40" rx="12" fill="${t.s1}" stroke="${t.line}"/>
-${icon('blocks', lx - 76, H - 74, 20, t.acc)}<text x="${lx - 48}" y="${H - 59}" font-size="13.5" fill="${t.ink2}"><tspan font-weight="600" fill="${t.ink}">7 herramientas, un formato:</tspan> yrd-ecosistema</text></g>`;
+${icon('blocks', lx - 76, H - 74, 20, t.acc)}<text x="${lx - 48}" y="${H - 59}" font-size="13.5" fill="${t.ink2}"><tspan font-weight="600" fill="${t.ink}">8 herramientas, un formato:</tspan> yrd-ecosistema</text></g>`;
   return svg(W, H, 'Yoandy Ramírez Delgado · Pentester · AI Security y agentes de IA · Active Directory · Web · DFIR · ENS · NIS2 · ISO 27001 · ISO 42001 · eJPTv2. Puente entre lo ofensivo y el GRC.', body);
 }
 
@@ -97,7 +97,7 @@ ${icon('blocks', lx - 76, H - 74, 20, t.acc)}<text x="${lx - 48}" y="${H - 59}" 
 function stats(th) {
   const t = THEMES[th];
   const W = 1200, H = 150;
-  const items = [['7', 'herramientas GRC abiertas'], ['15', 'normas y leyes en Rosetta'], ['152', 'controles unificados'], ['89', 'máquinas en Hack The Box'], ['0', 'peticiones a terceros']];
+  const items = [['8', 'herramientas GRC abiertas'], ['15', 'normas y leyes en Rosetta'], ['152', 'controles unificados'], ['89', 'máquinas en Hack The Box'], ['0', 'peticiones a terceros']];
   const cw = W / items.length;
   const body = `${style(t, { fonts: true })}
 <rect width="${W}" height="${H}" rx="24" fill="${t.s1}" stroke="${t.line}"/>
@@ -112,9 +112,10 @@ function ecosistema(th) {
   const t = THEMES[th];
   const W = 1200, H = 560, cx = 600, cy = 290;
   const nodes = [
-    { id: 'kairos', name: 'KAIROS', sub: 'Continuidad', ic: 'hourglass', x: 170, y: 120, edge: 'bia →', back: '← activos' },
-    { id: 'studio', name: 'Compliance Studio', sub: 'ENS', ic: 'shield-check', x: 170, y: 290, edge: 'soa →' },
-    { id: 'ad', name: 'ENS AD Auditor', sub: 'Directorio activo', ic: 'key-round', x: 170, y: 460, edge: 'hallazgos →' },
+    { id: 'kairos', name: 'KAIROS', sub: 'Continuidad', ic: 'hourglass', x: 170, y: 104, edge: 'bia →', back: '← activos' },
+    { id: 'studio', name: 'Compliance Studio', sub: 'ENS', ic: 'shield-check', x: 170, y: 222, edge: 'soa →' },
+    { id: 'ad', name: 'ENS AD Auditor', sub: 'Directorio activo', ic: 'key-round', x: 170, y: 340, edge: 'hallazgos →' },
+    { id: 'mcp', name: 'MCP-Shield', sub: 'Asistentes de IA', ic: 'bot', x: 170, y: 458, edge: 'hallazgos →' },
     { id: 'rosetta', name: 'Rosetta', sub: '15 normas y leyes', ic: 'languages', x: 1030, y: 120, edge: 'hallazgos →', back: '← controles' },
     { id: 'norvik', name: 'Norvik', sub: 'Gobernanza', ic: 'landmark', x: 1030, y: 290, edge: 'indicadores →', back: '← responsables' },
     { id: 'argos', name: 'ARGOS', sub: 'Laboratorio', ic: 'eye', x: 1030, y: 460, edge: 'práctica →' },
@@ -144,7 +145,7 @@ ${nodes.map(node).join('')}
 <rect x="${cx - 26}" y="${cy - 50}" width="52" height="52" rx="14" fill="${t.accT}"/>${icon('waypoints', cx - 14, cy - 38, 28, t.acc)}
 <text x="${cx}" y="${cy + 30}" font-size="18" font-weight="650" text-anchor="middle" letter-spacing="-.01em">CTEM-Nexus</text>
 <text x="${cx}" y="${cy + 51}" font-size="13" text-anchor="middle" fill="${t.ink3}">Exposición y rutas de ataque</text></g>`;
-  return svg(W, H, 'Ecosistema: KAIROS envía el BIA y recibe el riesgo de interrupción; Compliance Studio envía la SoA; ENS AD Auditor envía hallazgos; CTEM-Nexus envía evidencia a Rosetta y recibe el estado de los controles; envía indicadores a Norvik y recibe responsables; enlaza cada hallazgo con su máquina de ARGOS.', body);
+  return svg(W, H, 'Ecosistema: KAIROS envía el BIA y recibe el riesgo de interrupción; Compliance Studio envía la SoA; ENS AD Auditor y MCP-Shield envían hallazgos; CTEM-Nexus envía evidencia a Rosetta y recibe el estado de los controles; envía indicadores a Norvik y recibe responsables; enlaza cada hallazgo con su máquina de ARGOS.', body);
 }
 
 /* ───────── Tarjetas ───────── */
@@ -172,6 +173,14 @@ const SIGNATURE = {
     + `<text x="${x + 62}" y="${y - 36}" class="mono" font-size="10.5" text-anchor="middle" fill="${t.ink3}">DA</text>`,
   // ARGOS: ojos que se abren con cada rango
   eyes: (t, x, y) => Array.from({ length: 10 }, (_, i) => `<circle cx="${x - 44 + (i % 5) * 28}" cy="${y - 14 + Math.floor(i / 5) * 28}" r="9" fill="${i < 6 ? t.accT : 'none'}" stroke="${i < 6 ? t.acc : t.s3}" stroke-width="2"/>${i < 6 ? `<circle cx="${x - 44 + (i % 5) * 28}" cy="${y - 14 + Math.floor(i / 5) * 28}" r="3.5" fill="${t.acc}"/>` : ''}`).join(''),
+  // MCP-Shield: escudo que escanea y neutraliza paquetes (su firma)
+  shield: (t, x, y) => {
+    const k = 3.6, ox = x + 4 - 12 * k, oy = y - 12 * k;
+    const d = 'M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z';
+    const packets = [[-30, t.crit], [-2, t.warn], [26, t.crit]].map(([dy, c], i) => `<rect x="${x - 84}" y="${y + dy - 3}" width="16" height="6" rx="3" fill="${c}" class="in d${i + 2}"/><path d="M${x - 62} ${y + dy}h12" stroke="${t.line2}" stroke-width="1.5" stroke-dasharray="2 3"/>`).join('');
+    return packets + `<g transform="translate(${ox} ${oy}) scale(${k})"><path d="${d}" fill="${t.accT}" stroke="${t.acc}" stroke-width="${(1.75 / k).toFixed(3)}" stroke-linejoin="round"/><path d="m9 12 2 2 4-4" fill="none" stroke="${t.acc}" stroke-width="${(2.2 / k).toFixed(3)}" stroke-linecap="round" stroke-linejoin="round"/></g>`
+      + `<line x1="${x + 4 - 7.6 * k}" y1="${y + 6}" x2="${x + 4 + 7.6 * k}" y2="${y + 6}" stroke="${t.acc}" stroke-width="1.5" opacity=".55"/>`;
+  },
   // Norvik: niveles de madurez
   maturity: (t, x, y) => [1, 2, 3, 4, 5].map((l, i) => `<rect x="${x - 70 + i * 30}" y="${y + 40 - l * 16}" width="22" height="${l * 16}" rx="5" fill="${i < 3 ? t.acc : t.s3}" opacity="${i < 3 ? .5 + i * .25 : 1}"/>`).join(''),
 };
@@ -194,12 +203,13 @@ ${sig}`;
 }
 
 const TOOLS = [
-  { id: 'rosetta', name: 'Rosetta Multinorma', meta: 'v2.11 · web', ic: 'languages', sig: 'rings', desc: ['15 normas y leyes de la UE, EE. UU. y', 'Latinoamérica sobre 152 controles.'], tags: ['ENS', 'ISO 27001', 'NIS2', 'DORA', 'LATAM'] },
+  { id: 'rosetta', name: 'Rosetta Multinorma', meta: 'v2.15 · web', ic: 'languages', sig: 'rings', desc: ['15 normas y leyes de la UE, EE. UU. y', 'Latinoamérica sobre 152 controles.'], tags: ['ENS', 'ISO 27001', 'NIS2', 'DORA', 'LATAM'] },
   { id: 'ctem', name: 'CTEM-Nexus', meta: 'v1.2 · web + API', ic: 'waypoints', sig: 'lanes', desc: ['Prioriza la exposición y dibuja las', 'rutas de ataque a los activos críticos.'], tags: ['KEV', 'EPSS', 'ATT&CK', 'BloodHound'] },
   { id: 'kairos', name: 'KAIROS', meta: 'v1.1 · web', ic: 'hourglass', sig: 'gantt', desc: ['BIA, BCP y DRP con la ruta crítica', 'de recuperación de cada función.'], tags: ['ISO 22301', 'op.cont', 'RTO · RPO'] },
   { id: 'studio', name: 'ENS Compliance Studio', meta: 'v2.2 · web', ic: 'shield-check', sig: 'grid', desc: ['Categorización, MAGERIT, SoA de las', '73 medidas y preauditoría del ENS.'], tags: ['RD 311/2022', 'MAGERIT', 'SoA'] },
   { id: 'adaudit', name: 'ENS AD Auditor', meta: 'v0.4 · web + motor local', ic: 'key-round', sig: 'path', desc: ['Directorio Activo frente al control', 'de acceso del ENS (op.acc).'], tags: ['Kerberos', 'AD CS', 'MAGERIT'] },
   { id: 'argos', name: 'ARGOS', meta: 'v1.3 · web', ic: 'eye', sig: 'eyes', desc: ['Laboratorio GRC al estilo HTB: rutas,', 'máquinas con flags y simulacros.'], tags: ['ENS', 'ISO 27001', 'ISO 22301'] },
+  { id: 'mcpshield', name: 'MCP-Shield', meta: 'v1.6 · web', ic: 'bot', sig: 'shield', desc: ['Audita las configuraciones MCP de los', 'asistentes de IA, sin salir del navegador.'], tags: ['OWASP Agentic', 'SARIF', 'ISO 42001'] },
   { id: 'norvik', name: 'Norvik', meta: 'escritorio', ic: 'landmark', sig: 'maturity', desc: ['Gobernanza y madurez con informes', 'y evidencias de cumplimiento.'], tags: ['NIST CSF', 'CIS', 'RGPD'] },
 ];
 /* Repositorios por categoría, en tarjeta compacta: nombre, repositorio, qué hace y etiquetas */
